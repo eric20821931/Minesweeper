@@ -21,8 +21,8 @@ env/
 .idea/
 *.log
 
-# CSV 或記錄檔（如果你不想上傳遊戲紀錄，可取消註解）
-# minesweeper_record.csv
+# 保留遊戲紀錄 CSV 檔
+# （不要排除 minesweeper_record.csv）
 
 # PyInstaller 打包暫存檔
 build/
