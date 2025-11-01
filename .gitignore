@@ -1,0 +1,30 @@
+# macOS 系統檔案
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python 編譯檔
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虛擬環境
+venv/
+env/
+.venv/
+
+# iCloud / VSCode / 其他暫存檔
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log
+
+# CSV 或記錄檔（如果你不想上傳遊戲紀錄，可取消註解）
+# minesweeper_record.csv
+
+# PyInstaller 打包暫存檔
+build/
+dist/
+*.spec
