@@ -1,12 +1,12 @@
 🎮 Minesweeper Game 🎮
 
 
-📌 Overview
+📌 Overview:
     A simple Pygame-based Minesweeper game written in Python. 
     Players can customize the board size and mine count, move a player cursor around the grid to reveal cells, and track their win/loss records which are saved automatically in a CSV file.
 
 
-📌 Description
+📌 Description:
     Features include:
         • Interactive graphical board using Pygame
         • Move the player cursor with arrow keys
@@ -17,14 +17,14 @@
         • Main menu for Play, Rules, Records, and Exit
 
 
-📌 Control
+📌 Control:
     • Arrow keys → Move the player
     • Step on a cell → Reveal it automatically
     • ESC → Return to menu or exit
     • Mouse click → Select menu options or game setup inputs
 
 
-📌 Dependencies
+📌 Dependencies:
     • Python 3.8 or higher (recommended Python 3.10+)
     • Operating System: Windows, macOS, or Linux
     • Required library: numpy, pygame
@@ -34,7 +34,7 @@
         pip install pygame
 
 
-📌 Executing Program
+📌 Executing Program:
     Run the game: 
         python minesweeper.py
 
@@ -52,14 +52,14 @@
         • Reveal all safe cells to win the game. Stepping on a mine ends the game immediately.
 
 
-📌 Minesweeper Rules
+📌 Minesweeper Rules:
     • Step onto a mine → Game over
     • Step onto a safe cell → Reveals number of nearby mines
     • Win by revealing all non-mine cells
     • Player records are saved automatically after each game
 
 
-📌 CSV Records
+📌 CSV Records:
     Player statistics are saved automatically in minesweeper_records.csv.
 
     Columns:
@@ -71,7 +71,7 @@
     • Lose: Number of games lost
 
 
-📌 License 
+📌 License:
     This project is open-source and free to use.
 
     
